@@ -1,0 +1,19 @@
+Steps to run docker on windows.
+
+1. Open Windows powershell as admin
+	Once the powershell is open, you need to get in to WSL
+2. use command "wsl --install" to get into Ubuntu
+3. In WSL you need to clone the vitis ai repo from GitHub. use chatgpt to clone the repo.
+4. After cloning the repo, you should be able to see the Vitis-ai directory inside wsl.
+5. You are going to need to create a directory called test folder using "mkdir test-folder"
+6. Give the folder permissions to copy from your host laptop or pc using this command "sudo chown cruzh3r:cruzh3r ~/test-folder"
+7. Once that is done you are going to copy your model from downloads folder into that directory using this command "cp /mnt/c/Users/YOURUSERNAME/Downloads/modified_scnn-vs-enet-vs-enet-sad-on-tusimple-dataset.ipynb ~/test-folder/".
+8. Next, you are going to run docker by mounting your downloads folder to the docker using this command "docker run --rm -it -v ~/test-folder:/mnt/downloads xilinx/vitis-ai-cpu:latest /bin/bash".
+9. After this step, you should be inside vitis ai.
+10. change directory using this folder "cd /mnt/downloads".
+11. check if the model is present in the folder.
+12. Now you can copy the model into another folder if need be using this command "cp modified_scnn-vs-enet-vs-enet-sad-on-tusimple-dataset.ipynb /home/vitis-ai-user/".
+13. next you are going to install notebook inside the docker using this command "pip3 install notebook". 
+14. open a new windows powershell as admin
+15. Run this command "docker ps". This will give you the docker container ID.
+16. Saved the customised docker image using this command "docker commit <container_id> lanenet-vitis-ai-pytorch"
