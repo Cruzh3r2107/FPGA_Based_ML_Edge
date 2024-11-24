@@ -24,9 +24,6 @@ Technology and Tools:
 • AMD/Xilinx Kria KV260 Vision AI development board
 • 3-4 Raspberry pi boards (if needed)
 • Some prior experience with FPGA tools such a AMD Vitis is preferred but not required
-Project Illustration:
-[image](https://github.com/user-attachments/assets/d7da3869-2996-4de7-adbf-59f21edd4ea0)
-
 KV-260 SPECIFICATIONS: 
 RAM : DDR 4GB
 ETHERNET: 10/100/1000 Mb/s
