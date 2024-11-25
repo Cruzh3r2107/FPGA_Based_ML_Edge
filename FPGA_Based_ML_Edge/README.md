@@ -1,7 +1,3 @@
-Here is a suggested `README.md` file for your GitHub repository:
-
----
-
 # **Lane Detection Project Using FPGA**
 
 This repository contains the implementation and details of our **Lane Detection Project** using the **Xilinx Kria KV260 Vision AI Starter Kit**. This project focuses on leveraging FPGA-based solutions for real-time lane detection in autonomous driving systems.
@@ -50,7 +46,3 @@ This repository contains the implementation and details of our **Lane Detection 
 ---
 
 Feel free to raise issues or contribute to this repository. Let us know if you have any questions or feedback! 🚗
-
----
-
-This `README.md` is structured to highlight your project details, references, and key resources. Let me know if you'd like further edits!
