@@ -1,5 +1,5 @@
 # FPGA_Based_ML_Edge
-This is the capstone project for MECPS under the guidance Prof. Eli Bozorgzadeh, department of Center for Cyber Physical Systems. This project is about running machine learning algorithm on the Xilinx Kria KV260. 
+This is our capstone project for master's in embedded systems under the guidance Prof. Eli Bozorgzadeh, department of Center for Cyber Physical Systems. This project is about running machine learning algorithm on the Xilinx Kria KV260. 
 
 ---
 
