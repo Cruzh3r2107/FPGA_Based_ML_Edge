@@ -1,31 +1,54 @@
 # FPGA_Based_ML_Edge
 This is the capstone project for MECPS under the guidance Prof. Eli Bozorgzadeh, department of Center for Cyber Physical Systems. This project is about running machine learning algorithm on the Xilinx Kria KV260. 
 
-Abstract: FPGAs are energy-efficient alternatives to GPUs as accelerators to be deployed in 
-edge computing systems. In this project, a network of embedded devices such as raspberry 
-pis are wirelessly connected to an edge node which is an FPGA device to accelerate the vision 
-algorithms running on the images sent by the end devices. Students learn how to handle 
-multiple accelerators running on an FPGA at the same time. Also, they explore how to allocate 
-accelerators and schedule the requests to the accelerators. The accelerators are ML-based 
-vision algorithms. They also investigate whether the ML applications should run on the enddevice or the edge if the queue to access the FPGA edge accelerators are too long. 
+---
 
-Learning Objectives:
-1. Study and analysis:
-a. FPGA design tools
-b. FPGA ML engine to generate hardware accelerators
-c. Transmit images from end devices to FPGA edge node
-2. Implementation:
-a. Implement FPGA ML accelerators on FPGAs
-3. Optimization:
-a. Policies for allocating multiple accelerators on FPGA if needed
-b. Policies to process the accelerator requests from the end devices
-Technology and Tools:
-• C/C++ and embedded Linux
-• AMD/Xilinx Kria KV260 Vision AI development board
-• 3-4 Raspberry pi boards (if needed)
-• Some prior experience with FPGA tools such a AMD Vitis is preferred but not required
-KV-260 SPECIFICATIONS: 
-RAM : DDR 4GB
-ETHERNET: 10/100/1000 Mb/s
-Primary boot memory: 512 Mb QSPI
-Secondary boot memory: microsD card (in our case 32 gb) 
+# **Lane Detection Project Using FPGA**
+
+This repository contains the implementation and details of our **Lane Detection Project** using the **Xilinx Kria KV260 Vision AI Starter Kit**. This project focuses on leveraging FPGA-based solutions for real-time lane detection in autonomous driving systems.
+
+---
+
+## **Project Overview**
+- **Objective**: Achieve real-time and efficient lane detection using FPGA to enhance the performance of Advanced Driver Assistance Systems (ADAS).
+- **Hardware**: Xilinx Kria KV260 Vision Starter Kit.
+- **Software**: Vitis AI, Pre-trained deep learning models.
+
+---
+
+## **Links and References**
+### **1. Lane Detection Background**
+- **Overview of Lane Detection**: [Papers With Code - Lane Detection](https://paperswithcode.com/task/lane-detection)
+- **Detailed Blog on Lane Detection**: [Think Autonomous - Lane Detection](https://www.thinkautonomous.ai/blog/lane-detection/)
+- **Tesla's Lane Detection System Overview**: [Tesla Model 3 Lane Detection](https://www.tesla.com/ownersmanual/model3/en_jo/GUID-ADA05DFF-963D-477D-9A51-FA8C8F6429F1.html)
+
+### **2. Tools and Resources**
+- **Vitis AI Documentation**: [Vitis AI Official Documentation](https://xilinx.github.io/Vitis-AI/3.5/html/index.html)
+- **Xilinx Kria Documentation**: 
+  - [Getting Started with Kria KV260](https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit/getting-started-ubuntu/getting-started.html)
+  - [Kria Apps Documentation](https://xilinx.github.io/kria-apps-docs/kv260/2022.1/build/html/index.html)
+- **GitHub Repository for Vitis AI**: [Xilinx Vitis AI GitHub](https://github.com/Xilinx/Vitis-AI)
+
+### **3. Dataset**
+- **TuSimple Dataset for Lane Detection**: [Kaggle - TuSimple Dataset](https://www.kaggle.com/datasets/manideep1108/tusimple)
+
+---
+
+## **How to Use This Repository**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo-name.git
+   ```
+2. Follow the setup instructions provided in the [Getting Started Guide](https://www.amd.com/en/products/system-on-modules/kria/k26/kv260-vision-starter-kit/getting-started-ubuntu/getting-started.html).
+
+---
+
+## **Project Highlights**
+- **Performance Metrics**: Showcases power efficiency, parallelism, and low latency of FPGA for real-time applications.
+- **Comparisons**: Benchmarks against GPU and CPU-based solutions.
+- **Applications**: Autonomous driving, smart traffic management, and ADAS.
+
+---
+
+Feel free to raise issues or contribute to this repository. Let us know if you have any questions or feedback! 🚗
+
