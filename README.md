@@ -7,6 +7,12 @@ This is our capstone project for master's in embedded systems under the guidance
 
 This repository contains the implementation and details of our **Lane Detection Project** using the **Xilinx Kria KV260 Vision AI Starter Kit**. This project focuses on leveraging FPGA-based solutions for real-time lane detection in autonomous driving systems.
 
+Lane detection around UC Irvine Campus
+![Lane Detection Using FPGA](https://drive.google.com/uc?id=1j5aNPrfImC5RKVn6F4usjeXt56KwbCU1)
+
+This is gif created from the lane detection output video around UC Irvine campus received when running YOLOv3 model of Xilinx Kria Kv260.
+
+
 ---
 
 ## **Project Overview**
